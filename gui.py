@@ -56,7 +56,7 @@ class App(tk.Tk):
         im = ImageGrab.grab(rect)
 
         digit, acc = predict_digit(im)
-        self.label.configure(text="Answer:" + str(digit)+"\nEstimated Accuracy: "+ str(int(acc*100))+"%\nBuilt by Anurag Sarkar")
+        self.label.configure(text="Answer:" + str(digit)+"\nEstimated Accuracy: "+ str(int(acc*100))+"%\nBuilt by Anmol")
 
     def draw_lines(self, event):
         self.x = event.x
